@@ -20,7 +20,7 @@
 typedef struct{
 	timespec time;
 	double token;
-}msg;
+}message;
 
 void error(const char *msg)
 {
@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
      int sockfd, newsockfd, portno;
      socklen_t clilen;
      //float buffer;
-     msg buffer;
+     message buffer;
      struct sockaddr_in serv_addr, cli_addr;
      int n;
      if (argc < 2)
