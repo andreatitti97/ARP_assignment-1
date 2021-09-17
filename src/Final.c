@@ -24,23 +24,24 @@
 
 typedef struct{
 	timeval time;
-	double token = 0;
+	double number = 0;
 }msg;
 
-msg message;
+msg token;
 
-char *timeString;
+char *ts;
 pid_t pid_S, pid_G, pid_L, pid_P;
 
-char name[30] = "token_";
+char filename[30] = "results/signal_";
 
 FILE *fp; //Configuration file
 
-char *signame[] = {"INVALID", "SIGHUP", "SIGINT", "SIGQUIT", "SIGILL", "SIGTRAP", "SIGABRT", "SIGBUS", "SIGFPE", "SIGKILL", "SIGUSR1", "SIGSEGV", "SIGUSR2", "SIGPIPE", "SIGALRM", "SIGTERM", "SIGSTKFLT", "SIGCHLD", "SIGCONT", "SIGSTOP", "SIGTSTP", "SIGTTIN", "SIGTTOU", "SIGURG", "SIGXCPU", "SIGXFSZ", "SIGVTALRM", "SIGPROF", "SIGWINCH", "SIGPOLL", "SIGPWR", "SIGSYS", NULL};
+char *signame[] = { "SIGINT", "SIGKILL", "SIGUSR1", "SIGUSR2", "SIGTERM", "SIGCONT", "SIGSTOP", NULL};
 
-const char *myfifo1 = "myfifo1"; //path
-const char *myfifo2 = "myfifo2"; //path
-const char *myfifo3 = "myfifo3"; //path
+// Init fifo
+const char *fifo1 = "fifo/fifo1";
+const char *fifo2 = "fifo/fifo2"; 
+const char *fifo3 = "fifo/fifo3"; 
 
 void error(const char *msg)
 {
@@ -49,53 +50,53 @@ void error(const char *msg)
 }
 
 // Read the configuration file info
-void readConfFile(char *ip, char *port, int *wt, int *rf)
+void loadConfig(char *ip, char *port, int *waiting_time, int *f)
 {
 	fp = fopen("ConfigurationFile.txt", "r");
 
 	if (fp == NULL)
-		error("Failed to open ConfigurationFile");
+		error("ERROR OPEN ConfigurationFile");
 
 	fscanf(fp, "%s", ip);
 	fscanf(fp, "%s", port);
-	fscanf(fp, "%d", wt);
-	fscanf(fp, "%d", rf);
+	fscanf(fp, "%d", waiting_time);
+	fscanf(fp, "%d", f);
 
 	printf("IP : %s\n", ip);
 	printf("Port : %s\n", port);
-	printf("Waiting time : %d\n", wt);
-	printf("RF : %d\n", *rf);
+	printf("Waiting time : %d\n", waiting_time);
+	printf("Reference Frequency : %d\n", *f);
 
 	fclose(fp);
 }
 
-void logFile(pid_t process_id, float msg, float token)
+void logFile(pid_t id, float msg, float token)
 {
 	FILE *f;
-	f = fopen("logFile.log", "a");
-	time_t currentTime;
-	currentTime = time(NULL);
-	timeString = ctime(&currentTime);
-	fprintf(f, "-%sPID: %d value:%.3f.\n", timeString, process_id, msg);
-	fprintf(f, "-%s%.3f.\n\n", timeString, token);
+	f = fopen("results/File.log", "a");
+	time_t currTime;
+	currTime = time(NULL);
+	ts = ctime(&currTime);
+	fprintf(f, "-%sPID: %d value:%.3f.\n", ts, id, msg);
+	fprintf(f, "-%s%.3f.\n\n", ts, token);
 
 	fclose(f);
 }
 
-void tokenFileInit(int rf)
+void signalFileInit(int f)
 {
  	FILE *tokenFile;
 
-	char rfStr[10];
-	sprintf(rfStr, "%d", rf);
-	strcat(name, rfStr);
-	strcat(name,".txt");
-	tokenFile = fopen(name, "w+");
+	char frequency[10];
+	sprintf(frequency, "%d", f);
+	strcat(filename, frequency);
+	strcat(filename,".txt");
+	tokenFile = fopen(filename, "w+");
 }
-void tokenFile(double token)
+void signalFileUpdate(double token)
 {
 	FILE *tokenFile;
-	tokenFile = fopen(name, "a");
+	tokenFile = fopen(filename, "a");
 	fprintf(tokenFile, "%f\n",token);
 	fclose(tokenFile);
 }
@@ -120,9 +121,9 @@ void sig_handler(int signo)
 	{
 		printf("Received SIGCONT\n");
 		printf("%d\n", pid_S);
-		logFile(pid_S, (float)signo, message.token);
-		printf("-%sPID: %d value:%s.\n", timeString, pid_S, signame[(int)signo]);
-		printf("-%s%.3f.\n\n", timeString, message.token);
+		logFile(pid_S, (float)signo, token.number);
+		printf("-%sPID: %d value:%s.\n", ts, pid_S, signame[(int)signo]);
+		printf("-%s%.3f.\n\n", ts, token.number);
 	}
 }
 
@@ -130,59 +131,59 @@ int main(int argc, char *argv[])
 {
 	char port[128];   //Socket port
 	char ip[32];	  //IP address of the next student
-	int wt;			  // Waiting time
-	int rf;			  //Frequency of the sine wave
+	int waiting_time;			  // Waiting time
+	int f;			  //Frequency of the sine wave
 
-	readConfFile(ip, port, &wt, &rf);
+	loadConfig(ip, port, &waiting_time, &f);
 
 	int n;			   //Return value
 	struct timeval tv; //Select delay
 
 	char *argdata[4];  //Process G execution argument
-	char *cmd = "./G"; //Process G executable path
+	char *cmd = "./executables/G"; //Process G executable path
 
 	float msg1, msg2, t; //Message from P to L
 
 	argdata[0] = cmd;
 	argdata[1] = port;
-	argdata[2] = (char *)myfifo2;
+	argdata[2] = (char *)fifo2;
 	argdata[3] = NULL;
 
 	int flag = 1; // crescente
 
-	tokenFileInit(rf);
+	signalFileInit(f);
 	/*-----------------------------------------Pipes Creation---------------------------------------*/
 
-	if (mkfifo(myfifo1, S_IRUSR | S_IWUSR) != 0) //creo file pipe P|S
+	if (mkfifo(fifo1, S_IRUSR | S_IWUSR) != 0) //creo file pipe P|S
 		perror("Cannot create fifo 1. Already existing?");
 
-	if (mkfifo(myfifo2, S_IRUSR | S_IWUSR) != 0) //creo file pipe P|G
+	if (mkfifo(fifo2, S_IRUSR | S_IWUSR) != 0) //creo file pipe P|G
 		perror("Cannot create fifo 2. Already existing?");
 
-	if (mkfifo(myfifo3, S_IRUSR | S_IWUSR) != 0) //creo file pipe P|L
+	if (mkfifo(fifo3, S_IRUSR | S_IWUSR) != 0) //creo file pipe P|L
 		perror("Cannot create fifo 3. Already existing?");
 
-	int fd1 = open(myfifo1, O_RDWR); //apro la pipe1
+	int fd1 = open(fifo1, O_RDWR); //apro la pipe1
 
 	if (fd1 == 0)
 	{	
-		unlink(myfifo1);
+		unlink(fifo1);
 		error("Cannot open fifo 1");
 	}
 
-	int fd2 = open(myfifo2, O_RDWR); //apro la pipe2
+	int fd2 = open(fifo2, O_RDWR); //apro la pipe2
 
 	if (fd2 == 0)
 	{	
-		unlink(myfifo2);
+		unlink(fifo2);
 		error("Cannot open fifo 2");
 	}
 
-	int fd3 = open(myfifo3, O_RDWR); //apro la pipe3
+	int fd3 = open(fifo3, O_RDWR); //apro la pipe3
 
 	if (fd3 == 0)
 	{	
-		unlink(myfifo3);
+		unlink(fifo3);
 		error("Cannot open fifo 3");
 	}
 
@@ -219,7 +220,7 @@ int main(int argc, char *argv[])
 		portno = atoi(port);
 		float old_tok, new_tok;
 
-		printf("Hey I'm P and my PID is : %d.\n", getpid());
+		printf("Process P PID is : %d.\n", getpid());
 
 		sockfd = socket(AF_INET, SOCK_STREAM, 0);
 		if (sockfd < 0)
@@ -281,67 +282,50 @@ int main(int argc, char *argv[])
 					if (n < 0)
 						error("ERROR reading from G");
 
-					/* if (line_G < -1 || line_G > 1)
-					{
-						printf("Value should be between -1 and 1!.\n");
-						break;
-					} */
-
-					printf("From G recived token = %.3f \n", line_G.token);
-
 					n = write(fd3, &line_G, sizeof(line_G));
 					if (n < 0)
 						error("ERROR writing to L");
 
 					// Get the current time 
-					//clock_gettime(CLOCK_REALTIME,&time);
 					gettimeofday(&current_time, NULL);
-					printf("current time: %f \n", (double)(current_time.tv_sec + current_time.tv_usec/(double)1000000));
 
 					// Compute DT
+					delay_time = (double)(current_time.tv_sec - token.time.tv_sec) + (double)(current_time.tv_usec - token.time.tv_usec)/(double)1000000;
+					printf("DT: %f\n",delay_time);
+					old_tok = line_G.number;
+					//message.token = old_tok + delay_time * (1 - pow(old_tok,2)/2 ) * 2 * 3.14 * f; // UNCOMMENT FOR REPORT FORMULA, WRONG
 
-					delay_time = (double)(current_time.tv_sec - message.time.tv_sec) + (double)(current_time.tv_usec - message.time.tv_usec)/(double)1000000;
-					printf("differenza: %f\n",delay_time);
-					printf("line_G token %f\n", line_G.token);
-					old_tok = line_G.token;
-					//message.token = old_tok + delay_time * (1 - pow(old_tok,2)/2 ) * 2 * 3.14 * rf;
-
-					printf("old tock: %f\n", fabs(old_tok));
-					if (fabs(old_tok) >= 1)
+					printf("Old token value: %f\n", fabs(old_tok));
+					if (old_tok >= 1)
 					{
-						flag = 1 - flag;
+						flag = 0;
+					}else if(old_tok <= -1)
+					{
+						flag = 1;
 					}
-					printf("flag: %d\n", flag);
+					//printf("Flag: %d\n", flag);
 					switch(flag)
 						{
 							case 0:
-								message.token = old_tok * cos(2 * 3.14 * rf * delay_time) - sqrt(1 - pow(old_tok,2)/2 ) * sin(2 * 3.14 * rf * delay_time);
+								token.number = old_tok * cos(2 * 3.14 * f * delay_time) - sqrt(1 - pow(old_tok,2)/2 ) * sin(2 * 3.14 * f * delay_time);
 								break;
 							case 1:
-								message.token = old_tok * cos(2 * 3.14 * rf * delay_time) + sqrt(1 - pow(old_tok,2)/2 ) * sin(2 * 3.14 * rf * delay_time);
+								token.number = old_tok * cos(2 * 3.14 * f * delay_time) + sqrt(1 - pow(old_tok,2)/2 ) * sin(2 * 3.14 * f * delay_time);
 								break;
 						}
-					tokenFile(message.token);
+					signalFileUpdate(token.number);
 					
-					message.time = current_time;
-					//line_G += 1; 			////////////////////////////////////////////FORMULA////////////////////////////////////////////////
-					//message.token = line_G;
-
-
+					token.time = current_time;
 					// Send new value to L
-					n = write(fd3, &message, sizeof(message));
+					n = write(fd3, &token, sizeof(token));
 					if (n < 0)
 						error("ERROR writing to L");
 
 					// Write new value to the socket
-					//n = write(sockfd, &line_G, sizeof(line_G));
-					n = write(sockfd, &message, sizeof(message));
+					n = write(sockfd, &token, sizeof(token));
 					if (n < 0)
 						error("ERROR writing to socket");
-					
-					//clock_gettime(CLOCK_REALTIME,&prev_time);
-
-					usleep(wt); 	//Simulate communication delay
+					usleep(waiting_time); 	//Simulate communication delay
 				}
 
 				sleep(1);
@@ -363,13 +347,13 @@ int main(int argc, char *argv[])
 		}
 
 		close(fd1);
-		unlink(myfifo1);
+		unlink(fifo1);
 
 		close(fd2);
-		unlink(myfifo2);
+		unlink(fifo2);
 
 		close(fd3);
-		unlink(myfifo3);
+		unlink(fifo3);
 
 		close(sockfd);
 	}
@@ -386,7 +370,7 @@ int main(int argc, char *argv[])
 
 		if (pid_L == 0)
 		{
-			printf("Hey I'm L and my PID is : %d.\n", getpid());
+			printf("Process L PID is : %d.\n", getpid());
 
 			while (1)
 			{
@@ -402,7 +386,7 @@ int main(int argc, char *argv[])
 			}
 
 			close(fd3);
-			unlink(myfifo3);
+			unlink(fifo3);
 		}
 
 		else
@@ -419,7 +403,7 @@ int main(int argc, char *argv[])
 
 			if (pid_G == 0)
 			{
-				printf("Hey I'm G and my PID is : %d.\n", getpid());
+				printf("Process G PID is : %d.\n", getpid());
 				int a = execvp(argdata[0], argdata);
 				printf("%d",a);
 				error("Exec fallita");
@@ -430,7 +414,7 @@ int main(int argc, char *argv[])
 
 			pid_S = getpid();
 
-			printf("Hey I'm S and my PID is : %d.\n", getpid());
+			printf("Process S PID is : %d.\n", getpid());
 
 			if (signal(SIGUSR1, sig_handler) == SIG_ERR)
 				printf("Can't catch SIGUSR1\n");
@@ -441,26 +425,21 @@ int main(int argc, char *argv[])
 			if (signal(SIGUSR2, sig_handler) == SIG_ERR)
 				printf("Can't catch SIGUSER2\n");
 
-			//srand(time(0)); //current time as seed of random number generator
 			sleep(5);
 
 			while (1)
 			{
-				/* t = (rand() % (10 + 1));
-				n = write(fd1, &t, sizeof(t));
-				if (n < 0)
-					error("ERROR writing to P");
-				sleep(rand() % (10 + 1)); */
+			
 			}
 
 			close(fd1);
-			unlink(myfifo1);
+			unlink(fifo1);
 
 			close(fd2);
-			unlink(myfifo2);
+			unlink(fifo2);
 
 			close(fd3);
-			unlink(myfifo3);
+			unlink(fifo3);
 		}
 
 		return 0;
