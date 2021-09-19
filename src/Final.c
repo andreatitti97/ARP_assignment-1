@@ -24,7 +24,7 @@
 
 typedef struct{
 	timeval time;
-	double number = 0;
+	float value = 0;
 }msg;
 
 msg token;
@@ -70,17 +70,23 @@ void loadConfig(char *ip, char *port, int *waiting_time, int *f)
 	fclose(fp);
 }
 
-void logFile(pid_t id, float msg, float token)
+void logFile(pid_t pid, char id, float msg1, float msg2)
 {
-	FILE *f;
-	f = fopen("results/File.log", "a");
+	FILE *fileLog;
+	fileLog = fopen("results/File.log", "a");
 	time_t currTime;
 	currTime = time(NULL);
 	ts = ctime(&currTime);
-	fprintf(f, "-%sPID: %d value:%.3f.\n", ts, id, msg);
-	fprintf(f, "-%s%.3f.\n\n", ts, token);
+	if (msg1 == SIGCONT)
+	{
+		fprintf(fileLog, "-Current Time: %s from %c action: DUMP LOG", ts, id);
+	}else
+	{
+		fprintf(fileLog, "-Current Time: %s PID: %d, PROCESS: %c value:%.3f.\n", ts, pid, id, msg1);
+	}
+	fprintf(fileLog, "-%s%.3f.\n\n", ts, msg2);
 
-	fclose(f);
+	fclose(fileLog);
 }
 
 void signalFileInit(int f)
@@ -121,9 +127,9 @@ void sig_handler(int signo)
 	{
 		printf("Received SIGCONT\n");
 		printf("%d\n", pid_S);
-		logFile(pid_S, (float)signo, token.number);
+		logFile(pid_S, 'S',(float)signo, token.value);
 		printf("-%sPID: %d value:%s.\n", ts, pid_S, signame[(int)signo]);
-		printf("-%s%.3f.\n\n", ts, token.number);
+		printf("-%s%.3f.\n\n", ts, token.value);
 	}
 }
 
@@ -136,13 +142,13 @@ int main(int argc, char *argv[])
 
 	loadConfig(ip, port, &waiting_time, &f);
 
-	int n;			   //Return value
-	struct timeval tv; //Select delay
+	int n;			   //Return value for writing or reading pipes
+	struct timeval tv; //time varaible for compute DELAY for operation of "Select"
 
 	char *argdata[4];  //Process G execution argument
 	char *cmd = "./executables/G"; //Process G executable path
 
-	float msg1, msg2, t; //Message from P to L
+	msg msg1, msg2; //Message from P to L
 
 	argdata[0] = cmd;
 	argdata[1] = port;
@@ -292,10 +298,10 @@ int main(int argc, char *argv[])
 					// Compute DT
 					delay_time = (double)(current_time.tv_sec - token.time.tv_sec) + (double)(current_time.tv_usec - token.time.tv_usec)/(double)1000000;
 					printf("DT: %f\n",delay_time);
-					old_tok = line_G.number;
+					old_tok = line_G.value;
 					//message.token = old_tok + delay_time * (1 - pow(old_tok,2)/2 ) * 2 * 3.14 * f; // UNCOMMENT FOR REPORT FORMULA, WRONG
 
-					printf("Old token value: %f\n", fabs(old_tok));
+					//printf("Old token value: %f\n", fabs(old_tok));
 					if (old_tok >= 1)
 					{
 						flag = 0;
@@ -307,13 +313,25 @@ int main(int argc, char *argv[])
 					switch(flag)
 						{
 							case 0:
-								token.number = old_tok * cos(2 * 3.14 * f * delay_time) - sqrt(1 - pow(old_tok,2)/2 ) * sin(2 * 3.14 * f * delay_time);
+								token.value = old_tok * cos(2 * 3.14 * f * delay_time) - sqrt(1 - pow(old_tok,2)/2 ) * sin(2 * 3.14 * f * delay_time);
+								// Saturate Signal
+								if (token.value < -1)
+								{
+									token.value = -1;
+									flag = 1;
+								}
 								break;
 							case 1:
-								token.number = old_tok * cos(2 * 3.14 * f * delay_time) + sqrt(1 - pow(old_tok,2)/2 ) * sin(2 * 3.14 * f * delay_time);
+								token.value = old_tok * cos(2 * 3.14 * f * delay_time) + sqrt(1 - pow(old_tok,2)/2 ) * sin(2 * 3.14 * f * delay_time);
+								// Saturate Signal
+								if (token.value > 1)
+								{
+									token.value = 1;
+									flag = 0;
+								}
 								break;
 						}
-					signalFileUpdate(token.number);
+					signalFileUpdate(token.value);
 					
 					token.time = current_time;
 					// Send new value to L
@@ -382,7 +400,7 @@ int main(int argc, char *argv[])
 				if (n < 0)
 					error("ERROR reciving file from P");
 
-				logFile(getpid(), msg1, msg2);
+				logFile(getpid(),'G', msg1.value, msg2.value);
 			}
 
 			close(fd3);
