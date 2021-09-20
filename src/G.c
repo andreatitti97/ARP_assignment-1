@@ -34,7 +34,6 @@ int main(int argc, char *argv[])
 
      int sockfd, newsockfd, portno;
      socklen_t clilen;
-     //float buffer;
      message buffer;
      struct sockaddr_in serv_addr, cli_addr;
      int n;
@@ -72,17 +71,12 @@ int main(int argc, char *argv[])
      while (1)
      {
 
-          n = read(newsockfd, &buffer, sizeof(buffer)); //leggo dato socket
+          n = read(newsockfd, &buffer, sizeof(buffer));
           if (n < 0)
                error("ERROR reading from socket");
 
-          int nb2 = write(fd2, &buffer, sizeof(buffer)); //scrivo ciò che leggo nella fifo
+          int nb2 = write(fd2, &buffer, sizeof(buffer));
 
-          //printf("Here is the message: %.3f\n", buffer);
-
-          /* n = write(newsockfd, "I got your message", 18);
-          if (n < 0)
-               error("ERROR writing to socket"); */
      }
 
      close(fd2);
