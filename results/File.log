@@ -1,380 +1,1467 @@
--Current Time: Mon Sep 20 09:22:15 2021
- FROM: G value:-0.833.
--Current Time: Mon Sep 20 09:22:15 2021
- New token value: 1.000.
+-/nCurrent Time: Mon Sep 20 16:06:06 2021
+ FROM: G value:0.944.
+-/nCurrent Time: Mon Sep 20 16:06:06 2021
+ New token value: 0.752.
 
--Current Time: Mon Sep 20 09:22:16 2021
+-/nCurrent Time: Mon Sep 20 16:06:07 2021
+ FROM: G value:0.562.
+-/nCurrent Time: Mon Sep 20 16:06:07 2021
+ New token value: 0.580.
+
+-/nCurrent Time: Mon Sep 20 16:06:08 2021
+ FROM: G value:0.162.
+-/nCurrent Time: Mon Sep 20 16:06:08 2021
+ New token value: 0.172.
+
+-/nCurrent Time: Mon Sep 20 16:06:09 2021
+ FROM: G value:-0.868.
+-/nCurrent Time: Mon Sep 20 16:06:09 2021
+ New token value: -0.859.
+
+-/nCurrent Time: Mon Sep 20 16:06:10 2021
+ FROM: G value:0.375.
+-/nCurrent Time: Mon Sep 20 16:06:10 2021
+ New token value: 0.385.
+
+-/nCurrent Time: Mon Sep 20 16:06:11 2021
+ FROM: G value:-0.153.
+-/nCurrent Time: Mon Sep 20 16:06:11 2021
+ New token value: -0.142.
+
+-/nCurrent Time: Mon Sep 20 16:06:12 2021
+ FROM: G value:0.035.
+-/nCurrent Time: Mon Sep 20 16:06:12 2021
+ New token value: 0.050.
+
+-/nCurrent Time: Mon Sep 20 16:06:13 2021
  FROM: G value:0.000.
--Current Time: Mon Sep 20 09:22:16 2021
- New token value: -0.023.
+-/nCurrent Time: Mon Sep 20 16:06:13 2021
+ New token value: 0.014.
 
--Current Time: Mon Sep 20 09:22:17 2021
- FROM: G value:1.000.
--Current Time: Mon Sep 20 09:22:17 2021
- New token value: 0.977.
 
--Current Time: Mon Sep 20 09:22:18 2021
- FROM: G value:-0.023.
--Current Time: Mon Sep 20 09:22:18 2021
- New token value: -0.062.
+-Current Time: Mon Sep 20 16:06:14 2021
+ FROM S action: DUMP LOG
+-/nCurrent Time: Mon Sep 20 16:06:14 2021
+ FROM: G value:0.752.
+-/nCurrent Time: Mon Sep 20 16:06:14 2021
+ New token value: 0.763.
 
--Current Time: Mon Sep 20 09:22:19 2021
- FROM: G value:0.977.
--Current Time: Mon Sep 20 09:22:19 2021
- New token value: 0.968.
+-/nCurrent Time: Mon Sep 20 16:06:15 2021
+ FROM: G value:0.580.
+-/nCurrent Time: Mon Sep 20 16:06:15 2021
+ New token value: 0.593.
 
--Current Time: Mon Sep 20 09:22:20 2021
- FROM: G value:-0.062.
--Current Time: Mon Sep 20 09:22:20 2021
- New token value: -0.075.
+-/nCurrent Time: Mon Sep 20 16:06:16 2021
+ FROM: G value:0.172.
+-/nCurrent Time: Mon Sep 20 16:06:16 2021
+ New token value: 0.184.
 
--Current Time: Mon Sep 20 09:22:21 2021
- FROM: G value:0.968.
--Current Time: Mon Sep 20 09:22:21 2021
- New token value: 0.957.
+-/nCurrent Time: Mon Sep 20 16:06:17 2021
+ FROM: G value:-0.859.
+-/nCurrent Time: Mon Sep 20 16:06:17 2021
+ New token value: -0.846.
 
--Current Time: Mon Sep 20 09:22:22 2021
- FROM: G value:-0.075.
--Current Time: Mon Sep 20 09:22:22 2021
- New token value: -0.093.
+-/nCurrent Time: Mon Sep 20 16:07:59 2021
+ FROM: G value:0.385.
+-/nCurrent Time: Mon Sep 20 16:07:59 2021
+ New token value: -0.367.
 
--Current Time: Mon Sep 20 09:22:23 2021
- FROM: G value:0.957.
--Current Time: Mon Sep 20 09:22:23 2021
- New token value: 0.942.
+-/nCurrent Time: Mon Sep 20 16:08:00 2021
+ FROM: G value:-0.142.
+-/nCurrent Time: Mon Sep 20 16:08:00 2021
+ New token value: -0.129.
 
--Current Time: Mon Sep 20 09:22:24 2021
- FROM: G value:-0.093.
--Current Time: Mon Sep 20 09:22:24 2021
- New token value: -0.114.
+-/nCurrent Time: Mon Sep 20 16:08:01 2021
+ FROM: G value:0.050.
+-/nCurrent Time: Mon Sep 20 16:08:01 2021
+ New token value: 0.067.
 
--Current Time: Mon Sep 20 09:22:25 2021
- FROM: G value:0.942.
--Current Time: Mon Sep 20 09:22:25 2021
- New token value: 0.928.
+-/nCurrent Time: Mon Sep 20 16:08:02 2021
+ FROM: G value:0.014.
+-/nCurrent Time: Mon Sep 20 16:08:02 2021
+ New token value: 0.031.
 
--Current Time: Mon Sep 20 09:22:26 2021
- FROM: G value:-0.114.
--Current Time: Mon Sep 20 09:22:26 2021
- New token value: -0.132.
+-/nCurrent Time: Mon Sep 20 16:08:03 2021
+ FROM: G value:0.763.
+-/nCurrent Time: Mon Sep 20 16:08:03 2021
+ New token value: 0.775.
 
--Current Time: Mon Sep 20 09:22:27 2021
- FROM: G value:0.928.
--Current Time: Mon Sep 20 09:22:27 2021
- New token value: 0.914.
+-/nCurrent Time: Mon Sep 20 16:08:04 2021
+ FROM: G value:0.593.
+-/nCurrent Time: Mon Sep 20 16:08:04 2021
+ New token value: 0.603.
 
--Current Time: Mon Sep 20 09:22:36 2021
- FROM: G value:-0.132.
--Current Time: Mon Sep 20 09:22:36 2021
- New token value: 0.052.
 
--Current Time: Mon Sep 20 09:22:37 2021
- FROM: G value:0.914.
--Current Time: Mon Sep 20 09:22:37 2021
- New token value: 0.902.
+-Current Time: Mon Sep 20 16:08:05 2021
+ FROM S action: DUMP LOG
+-/nCurrent Time: Mon Sep 20 16:08:05 2021
+ FROM: G value:0.184.
+-/nCurrent Time: Mon Sep 20 16:08:05 2021
+ New token value: 0.203.
 
--Current Time: Mon Sep 20 09:22:38 2021
- FROM: G value:0.052.
--Current Time: Mon Sep 20 09:22:38 2021
- New token value: 0.034.
+-/nCurrent Time: Mon Sep 20 16:08:06 2021
+ FROM: G value:-0.846.
+-/nCurrent Time: Mon Sep 20 16:08:06 2021
+ New token value: -0.837.
 
--Current Time: Mon Sep 20 09:22:39 2021
- FROM: G value:0.902.
--Current Time: Mon Sep 20 09:22:39 2021
- New token value: 0.885.
-
--Current Time: Mon Sep 20 09:22:40 2021
- FROM: G value:0.034.
--Current Time: Mon Sep 20 09:22:40 2021
+-/nCurrent Time: Mon Sep 20 16:08:07 2021
+ FROM: G value:0.000.
+-/nCurrent Time: Mon Sep 20 16:08:07 2021
  New token value: 0.018.
 
--Current Time: Mon Sep 20 09:22:41 2021
- FROM: G value:0.885.
--Current Time: Mon Sep 20 09:22:41 2021
- New token value: 0.870.
+-/nCurrent Time: Mon Sep 20 16:08:08 2021
+ FROM: G value:-0.367.
+-/nCurrent Time: Mon Sep 20 16:08:08 2021
+ New token value: -0.351.
 
--Current Time: Mon Sep 20 09:22:42 2021
- FROM: G value:0.018.
--Current Time: Mon Sep 20 09:22:42 2021
- New token value: -0.003.
+-/nCurrent Time: Mon Sep 20 16:08:09 2021
+ FROM: G value:-0.129.
+-/nCurrent Time: Mon Sep 20 16:08:09 2021
+ New token value: -0.112.
 
--Current Time: Mon Sep 20 09:22:43 2021
- FROM: G value:0.870.
--Current Time: Mon Sep 20 09:22:43 2021
- New token value: 0.854.
+-/nCurrent Time: Mon Sep 20 16:08:10 2021
+ FROM: G value:0.067.
+-/nCurrent Time: Mon Sep 20 16:08:10 2021
+ New token value: 0.082.
 
--Current Time: Mon Sep 20 09:22:44 2021
- FROM: G value:-0.003.
--Current Time: Mon Sep 20 09:22:44 2021
- New token value: -0.023.
+-/nCurrent Time: Mon Sep 20 16:08:11 2021
+ FROM: G value:0.031.
+-/nCurrent Time: Mon Sep 20 16:08:11 2021
+ New token value: 0.048.
 
--Current Time: Mon Sep 20 09:22:45 2021
- FROM: G value:0.854.
--Current Time: Mon Sep 20 09:22:45 2021
- New token value: 0.839.
+-/nCurrent Time: Mon Sep 20 16:08:12 2021
+ FROM: G value:0.775.
+-/nCurrent Time: Mon Sep 20 16:08:12 2021
+ New token value: 0.789.
 
--Current Time: Mon Sep 20 09:22:46 2021
- FROM: G value:-0.023.
--Current Time: Mon Sep 20 09:22:46 2021
- New token value: -0.042.
+-/nCurrent Time: Mon Sep 20 16:08:13 2021
+ FROM: G value:0.603.
+-/nCurrent Time: Mon Sep 20 16:08:13 2021
+ New token value: 0.616.
 
--Current Time: Mon Sep 20 09:37:31 2021
- FROM: G value:0.000.
--Current Time: Mon Sep 20 09:37:31 2021
- New token value: 0.951.
+-/nCurrent Time: Mon Sep 20 16:08:14 2021
+ FROM: G value:0.203.
+-/nCurrent Time: Mon Sep 20 16:08:14 2021
+ New token value: 0.221.
 
--Current Time: Mon Sep 20 09:37:32 2021
- FROM: G value:0.951.
--Current Time: Mon Sep 20 09:37:32 2021
- New token value: 0.960.
-
--Current Time: Mon Sep 20 09:37:33 2021
- FROM: G value:0.960.
--Current Time: Mon Sep 20 09:37:33 2021
- New token value: 0.983.
-
--Current Time: Mon Sep 20 09:37:34 2021
- FROM: G value:0.983.
--Current Time: Mon Sep 20 09:37:34 2021
- New token value: 1.000.
-
--Current Time: Mon Sep 20 09:37:35 2021
- FROM: G value:1.000.
--Current Time: Mon Sep 20 09:37:35 2021
- New token value: 0.986.
-
--Current Time: Mon Sep 20 09:37:36 2021
- FROM: G value:0.986.
--Current Time: Mon Sep 20 09:37:36 2021
- New token value: 0.971.
-
--Current Time: Mon Sep 20 09:37:37 2021
- FROM: G value:0.971.
--Current Time: Mon Sep 20 09:37:37 2021
- New token value: 0.956.
-
--Current Time: Mon Sep 20 09:37:38 2021
- FROM: G value:0.956.
--Current Time: Mon Sep 20 09:37:38 2021
- New token value: 0.941.
-
--Current Time: Mon Sep 20 09:37:39 2021
- FROM: G value:0.941.
--Current Time: Mon Sep 20 09:37:39 2021
- New token value: 0.926.
-
--Current Time: Mon Sep 20 09:37:40 2021
- FROM: G value:0.926.
--Current Time: Mon Sep 20 09:37:40 2021
- New token value: 0.911.
-
--Current Time: Mon Sep 20 09:37:41 2021
- FROM: G value:0.911.
--Current Time: Mon Sep 20 09:37:41 2021
- New token value: 0.896.
-
--Current Time: Mon Sep 20 09:37:42 2021
- FROM: G value:0.896.
--Current Time: Mon Sep 20 09:37:42 2021
- New token value: 0.881.
-
--Current Time: Mon Sep 20 09:37:43 2021
- FROM: G value:0.881.
--Current Time: Mon Sep 20 09:37:43 2021
- New token value: 0.866.
-
--Current Time: Mon Sep 20 09:37:44 2021
- FROM: G value:0.866.
--Current Time: Mon Sep 20 09:37:44 2021
- New token value: 0.851.
-
--Current Time: Mon Sep 20 09:37:45 2021
- FROM: G value:0.851.
--Current Time: Mon Sep 20 09:37:45 2021
- New token value: 0.835.
-
--Current Time: Mon Sep 20 09:37:46 2021
- FROM: G value:0.835.
--Current Time: Mon Sep 20 09:37:46 2021
- New token value: 0.819.
-
--Current Time: Mon Sep 20 09:37:48 2021
- FROM: G value:0.819.
--Current Time: Mon Sep 20 09:37:48 2021
- New token value: 1.147.
-
--Current Time: Mon Sep 20 09:37:49 2021
- FROM: G value:1.147.
--Current Time: Mon Sep 20 09:37:49 2021
- New token value: 1.138.
-
--Current Time: Mon Sep 20 09:37:50 2021
- FROM: G value:1.138.
--Current Time: Mon Sep 20 09:37:50 2021
- New token value: 1.128.
-
--Current Time: Mon Sep 20 09:37:51 2021
- FROM: G value:1.128.
--Current Time: Mon Sep 20 09:37:51 2021
- New token value: 1.117.
-
--Current Time: Mon Sep 20 09:37:52 2021
- FROM: G value:1.117.
--Current Time: Mon Sep 20 09:37:52 2021
- New token value: 1.105.
-
--Current Time: Mon Sep 20 09:37:53 2021
- FROM: G value:1.105.
--Current Time: Mon Sep 20 09:37:53 2021
- New token value: 1.092.
-
--Current Time: Mon Sep 20 09:37:54 2021
- FROM: G value:1.092.
--Current Time: Mon Sep 20 09:37:54 2021
- New token value: 1.081.
-
--Current Time: Mon Sep 20 09:37:55 2021
- FROM: G value:1.081.
--Current Time: Mon Sep 20 09:37:55 2021
- New token value: 1.069.
-
--Current Time: Mon Sep 20 09:37:56 2021
- FROM: G value:1.069.
--Current Time: Mon Sep 20 09:37:56 2021
- New token value: 1.057.
-
--Current Time: Mon Sep 20 09:37:57 2021
- FROM: G value:1.057.
--Current Time: Mon Sep 20 09:37:57 2021
- New token value: 1.044.
-
--Current Time: Mon Sep 20 09:37:58 2021
- FROM: G value:1.044.
--Current Time: Mon Sep 20 09:37:58 2021
- New token value: 1.032.
-
--Current Time: Mon Sep 20 09:43:00 2021
- FROM: G value:1.032.
--Current Time: Mon Sep 20 09:43:00 2021
- New token value: -0.907.
-
--Current Time: Mon Sep 20 09:43:01 2021
- FROM: G value:0.000.
--Current Time: Mon Sep 20 09:43:01 2021
- New token value: 0.036.
-
--Current Time: Mon Sep 20 09:43:02 2021
- FROM: G value:-0.907.
--Current Time: Mon Sep 20 09:43:02 2021
- New token value: -0.882.
-
--Current Time: Mon Sep 20 09:43:03 2021
- FROM: G value:0.036.
--Current Time: Mon Sep 20 09:43:03 2021
- New token value: 0.064.
-
--Current Time: Mon Sep 20 09:43:04 2021
- FROM: G value:-0.882.
--Current Time: Mon Sep 20 09:43:04 2021
- New token value: -0.868.
-
--Current Time: Mon Sep 20 09:43:05 2021
- FROM: G value:0.064.
--Current Time: Mon Sep 20 09:43:05 2021
- New token value: 0.079.
-
--Current Time: Mon Sep 20 09:43:06 2021
- FROM: G value:-0.868.
--Current Time: Mon Sep 20 09:43:06 2021
- New token value: -0.851.
-
--Current Time: Mon Sep 20 09:43:07 2021
- FROM: G value:0.079.
--Current Time: Mon Sep 20 09:43:07 2021
- New token value: 0.103.
-
--Current Time: Mon Sep 20 09:43:08 2021
- FROM: G value:-0.851.
--Current Time: Mon Sep 20 09:43:08 2021
- New token value: -0.842.
-
--Current Time: Mon Sep 20 09:43:09 2021
- FROM: G value:0.103.
--Current Time: Mon Sep 20 09:43:09 2021
- New token value: 0.114.
-
--Current Time: Mon Sep 20 09:43:10 2021
- FROM: G value:-0.842.
--Current Time: Mon Sep 20 09:43:10 2021
- New token value: -0.833.
-
--Current Time: Mon Sep 20 09:43:11 2021
- FROM: G value:0.114.
--Current Time: Mon Sep 20 09:43:11 2021
- New token value: 0.125.
-
--Current Time: Mon Sep 20 09:43:12 2021
- FROM: G value:-0.833.
--Current Time: Mon Sep 20 09:43:12 2021
+-/nCurrent Time: Mon Sep 20 16:08:15 2021
+ FROM: G value:-0.837.
+-/nCurrent Time: Mon Sep 20 16:08:15 2021
  New token value: -0.823.
 
--Current Time: Mon Sep 20 09:43:13 2021
- FROM: G value:0.125.
--Current Time: Mon Sep 20 09:43:13 2021
- New token value: 0.136.
+-/nCurrent Time: Mon Sep 20 16:08:16 2021
+ FROM: G value:0.018.
+-/nCurrent Time: Mon Sep 20 16:08:16 2021
+ New token value: 0.029.
 
--Current Time: Mon Sep 20 09:43:18 2021
+-/nCurrent Time: Mon Sep 20 16:08:17 2021
+ FROM: G value:-0.351.
+-/nCurrent Time: Mon Sep 20 16:08:17 2021
+ New token value: -0.340.
+
+-/nCurrent Time: Mon Sep 20 16:08:18 2021
+ FROM: G value:-0.112.
+-/nCurrent Time: Mon Sep 20 16:08:18 2021
+ New token value: -0.093.
+
+-/nCurrent Time: Mon Sep 20 16:08:19 2021
+ FROM: G value:0.082.
+-/nCurrent Time: Mon Sep 20 16:08:19 2021
+ New token value: 0.098.
+
+-/nCurrent Time: Mon Sep 20 16:08:20 2021
+ FROM: G value:0.048.
+-/nCurrent Time: Mon Sep 20 16:08:20 2021
+ New token value: 0.059.
+
+-/nCurrent Time: Mon Sep 20 16:08:21 2021
+ FROM: G value:0.789.
+-/nCurrent Time: Mon Sep 20 16:08:21 2021
+ New token value: 0.801.
+
+-/nCurrent Time: Mon Sep 20 16:08:22 2021
+ FROM: G value:0.616.
+-/nCurrent Time: Mon Sep 20 16:08:22 2021
+ New token value: 0.625.
+
+-/nCurrent Time: Mon Sep 20 16:08:23 2021
+ FROM: G value:0.221.
+-/nCurrent Time: Mon Sep 20 16:08:23 2021
+ New token value: 0.239.
+
+-/nCurrent Time: Mon Sep 20 16:08:24 2021
  FROM: G value:-0.823.
--Current Time: Mon Sep 20 09:43:18 2021
- New token value: -0.520.
+-/nCurrent Time: Mon Sep 20 16:08:24 2021
+ New token value: -0.809.
 
--Current Time: Mon Sep 20 09:43:19 2021
- FROM: G value:0.136.
--Current Time: Mon Sep 20 09:43:19 2021
- New token value: 0.154.
+-/nCurrent Time: Mon Sep 20 16:08:25 2021
+ FROM: G value:0.029.
+-/nCurrent Time: Mon Sep 20 16:08:25 2021
+ New token value: 0.047.
 
--Current Time: Mon Sep 20 09:43:20 2021
- FROM: G value:-0.520.
--Current Time: Mon Sep 20 09:43:20 2021
- New token value: -0.503.
+-/nCurrent Time: Mon Sep 20 16:08:26 2021
+ FROM: G value:-0.340.
+-/nCurrent Time: Mon Sep 20 16:08:26 2021
+ New token value: -0.323.
 
--Current Time: Mon Sep 20 09:43:21 2021
- FROM: G value:0.154.
--Current Time: Mon Sep 20 09:43:21 2021
- New token value: 0.171.
+-/nCurrent Time: Mon Sep 20 16:08:27 2021
+ FROM: G value:-0.093.
+-/nCurrent Time: Mon Sep 20 16:08:27 2021
+ New token value: -0.081.
 
--Current Time: Mon Sep 20 09:43:22 2021
- FROM: G value:-0.503.
--Current Time: Mon Sep 20 09:43:22 2021
- New token value: -0.485.
+-/nCurrent Time: Mon Sep 20 16:08:28 2021
+ FROM: G value:0.098.
+-/nCurrent Time: Mon Sep 20 16:08:28 2021
+ New token value: 0.109.
 
--Current Time: Mon Sep 20 09:43:23 2021
- FROM: G value:0.171.
--Current Time: Mon Sep 20 09:43:23 2021
- New token value: 0.193.
+-/nCurrent Time: Mon Sep 20 16:08:29 2021
+ FROM: G value:0.059.
+-/nCurrent Time: Mon Sep 20 16:08:29 2021
+ New token value: 0.070.
 
--Current Time: Mon Sep 20 09:43:24 2021
- FROM: G value:-0.485.
--Current Time: Mon Sep 20 09:43:24 2021
- New token value: -0.467.
+-/nCurrent Time: Mon Sep 20 16:08:30 2021
+ FROM: G value:0.801.
+-/nCurrent Time: Mon Sep 20 16:08:30 2021
+ New token value: 0.811.
 
--Current Time: Mon Sep 20 09:43:25 2021
- FROM: G value:0.193.
--Current Time: Mon Sep 20 09:43:25 2021
- New token value: 0.211.
+-/nCurrent Time: Mon Sep 20 16:10:23 2021
+ FROM: G value:0.625.
+-/nCurrent Time: Mon Sep 20 16:10:23 2021
+ New token value: 0.462.
 
--Current Time: Mon Sep 20 09:43:26 2021
- FROM: G value:-0.467.
--Current Time: Mon Sep 20 09:43:26 2021
- New token value: -0.449.
+-/nCurrent Time: Mon Sep 20 16:10:24 2021
+ FROM: G value:0.239.
+-/nCurrent Time: Mon Sep 20 16:10:24 2021
+ New token value: 0.251.
 
--Current Time: Mon Sep 20 09:43:27 2021
- FROM: G value:0.211.
--Current Time: Mon Sep 20 09:43:27 2021
+-/nCurrent Time: Mon Sep 20 16:10:25 2021
+ FROM: G value:-0.809.
+-/nCurrent Time: Mon Sep 20 16:10:25 2021
+ New token value: -0.794.
+
+-/nCurrent Time: Mon Sep 20 16:10:26 2021
+ FROM: G value:0.047.
+-/nCurrent Time: Mon Sep 20 16:10:26 2021
+ New token value: 0.062.
+
+-/nCurrent Time: Mon Sep 20 16:10:27 2021
+ FROM: G value:-0.323.
+-/nCurrent Time: Mon Sep 20 16:10:27 2021
+ New token value: -0.309.
+
+-/nCurrent Time: Mon Sep 20 16:10:28 2021
+ FROM: G value:-0.081.
+-/nCurrent Time: Mon Sep 20 16:10:28 2021
+ New token value: -0.065.
+
+-/nCurrent Time: Mon Sep 20 16:10:29 2021
+ FROM: G value:0.109.
+-/nCurrent Time: Mon Sep 20 16:10:29 2021
+ New token value: 0.128.
+
+
+-Current Time: Mon Sep 20 16:10:30 2021
+ FROM S action: DUMP LOG
+-/nCurrent Time: Mon Sep 20 16:10:30 2021
+ FROM: G value:0.070.
+-/nCurrent Time: Mon Sep 20 16:10:30 2021
+ New token value: 0.088.
+
+-/nCurrent Time: Mon Sep 20 16:10:31 2021
+ FROM: G value:0.811.
+-/nCurrent Time: Mon Sep 20 16:10:31 2021
+ New token value: 0.820.
+
+-/nCurrent Time: Mon Sep 20 16:10:32 2021
+ FROM: G value:0.000.
+-/nCurrent Time: Mon Sep 20 16:10:32 2021
+ New token value: 0.010.
+
+-/nCurrent Time: Mon Sep 20 16:10:33 2021
+ FROM: G value:0.462.
+-/nCurrent Time: Mon Sep 20 16:10:33 2021
+ New token value: 0.472.
+
+-/nCurrent Time: Mon Sep 20 16:10:34 2021
+ FROM: G value:0.251.
+-/nCurrent Time: Mon Sep 20 16:10:34 2021
+ New token value: 0.262.
+
+-/nCurrent Time: Mon Sep 20 16:10:35 2021
+ FROM: G value:-0.794.
+-/nCurrent Time: Mon Sep 20 16:10:35 2021
+ New token value: -0.785.
+
+-/nCurrent Time: Mon Sep 20 16:10:36 2021
+ FROM: G value:0.062.
+-/nCurrent Time: Mon Sep 20 16:10:36 2021
+ New token value: 0.073.
+
+-/nCurrent Time: Mon Sep 20 16:10:37 2021
+ FROM: G value:-0.309.
+-/nCurrent Time: Mon Sep 20 16:10:37 2021
+ New token value: -0.298.
+
+-/nCurrent Time: Mon Sep 20 16:10:38 2021
+ FROM: G value:-0.065.
+-/nCurrent Time: Mon Sep 20 16:10:38 2021
+ New token value: -0.050.
+
+-/nCurrent Time: Mon Sep 20 16:16:08 2021
+ FROM: G value:0.128.
+-/nCurrent Time: Mon Sep 20 16:16:08 2021
+ New token value: 0.955.
+
+-/nCurrent Time: Mon Sep 20 16:16:09 2021
+ FROM: G value:0.088.
+-/nCurrent Time: Mon Sep 20 16:16:09 2021
+ New token value: 0.109.
+
+-/nCurrent Time: Mon Sep 20 16:16:10 2021
+ FROM: G value:0.820.
+-/nCurrent Time: Mon Sep 20 16:16:10 2021
+ New token value: 0.835.
+
+-/nCurrent Time: Mon Sep 20 16:16:11 2021
+ FROM: G value:0.010.
+-/nCurrent Time: Mon Sep 20 16:16:11 2021
+ New token value: 0.028.
+
+-/nCurrent Time: Mon Sep 20 16:16:12 2021
+ FROM: G value:0.472.
+-/nCurrent Time: Mon Sep 20 16:16:12 2021
+ New token value: 0.486.
+
+-/nCurrent Time: Mon Sep 20 16:16:13 2021
+ FROM: G value:0.262.
+-/nCurrent Time: Mon Sep 20 16:16:13 2021
+ New token value: 0.279.
+
+-/nCurrent Time: Mon Sep 20 16:16:14 2021
+ FROM: G value:-0.785.
+-/nCurrent Time: Mon Sep 20 16:16:14 2021
+ New token value: -0.769.
+
+-/nCurrent Time: Mon Sep 20 16:16:15 2021
+ FROM: G value:0.073.
+-/nCurrent Time: Mon Sep 20 16:16:15 2021
+ New token value: 0.084.
+
+-/nCurrent Time: Mon Sep 20 16:16:16 2021
+ FROM: G value:-0.298.
+-/nCurrent Time: Mon Sep 20 16:16:16 2021
+ New token value: -0.288.
+
+-/nCurrent Time: Mon Sep 20 16:16:17 2021
+ FROM: G value:-0.050.
+-/nCurrent Time: Mon Sep 20 16:16:17 2021
+ New token value: -0.039.
+
+-/nCurrent Time: Mon Sep 20 16:16:18 2021
+ FROM: G value:0.000.
+-/nCurrent Time: Mon Sep 20 16:16:18 2021
+ New token value: 0.011.
+
+-/nCurrent Time: Mon Sep 20 16:16:19 2021
+ FROM: G value:0.955.
+-/nCurrent Time: Mon Sep 20 16:16:19 2021
+ New token value: 0.963.
+
+-/nCurrent Time: Mon Sep 20 16:16:20 2021
+ FROM: G value:0.109.
+-/nCurrent Time: Mon Sep 20 16:16:20 2021
+ New token value: 0.119.
+
+-/nCurrent Time: Mon Sep 20 16:16:21 2021
+ FROM: G value:0.835.
+-/nCurrent Time: Mon Sep 20 16:16:21 2021
+ New token value: 0.843.
+
+-/nCurrent Time: Mon Sep 20 16:16:22 2021
+ FROM: G value:0.028.
+-/nCurrent Time: Mon Sep 20 16:16:22 2021
+ New token value: 0.039.
+
+-/nCurrent Time: Mon Sep 20 16:16:23 2021
+ FROM: G value:0.486.
+-/nCurrent Time: Mon Sep 20 16:16:23 2021
+ New token value: 0.495.
+
+-/nCurrent Time: Mon Sep 20 16:16:24 2021
+ FROM: G value:0.279.
+-/nCurrent Time: Mon Sep 20 16:16:24 2021
+ New token value: 0.290.
+
+-/nCurrent Time: Mon Sep 20 16:16:25 2021
+ FROM: G value:-0.769.
+-/nCurrent Time: Mon Sep 20 16:16:25 2021
+ New token value: -0.760.
+
+-/nCurrent Time: Mon Sep 20 16:16:26 2021
+ FROM: G value:0.084.
+-/nCurrent Time: Mon Sep 20 16:16:26 2021
+ New token value: 0.100.
+
+-/nCurrent Time: Mon Sep 20 16:16:27 2021
+ FROM: G value:-0.288.
+-/nCurrent Time: Mon Sep 20 16:16:27 2021
+ New token value: -0.277.
+
+-/nCurrent Time: Mon Sep 20 16:16:28 2021
+ FROM: G value:-0.039.
+-/nCurrent Time: Mon Sep 20 16:16:28 2021
+ New token value: -0.020.
+
+-/nCurrent Time: Mon Sep 20 16:16:29 2021
+ FROM: G value:0.011.
+-/nCurrent Time: Mon Sep 20 16:16:29 2021
+ New token value: 0.026.
+
+
+-Current Time: Mon Sep 20 16:16:30 2021
+ FROM S action: DUMP LOG
+-/nCurrent Time: Mon Sep 20 16:16:30 2021
+ FROM: G value:0.963.
+-/nCurrent Time: Mon Sep 20 16:16:30 2021
+ New token value: 0.973.
+
+-/nCurrent Time: Mon Sep 20 16:16:31 2021
+ FROM: G value:0.119.
+-/nCurrent Time: Mon Sep 20 16:16:31 2021
+ New token value: 0.135.
+
+-/nCurrent Time: Mon Sep 20 16:16:32 2021
+ FROM: G value:0.843.
+-/nCurrent Time: Mon Sep 20 16:16:32 2021
+ New token value: 0.857.
+
+-/nCurrent Time: Mon Sep 20 16:16:33 2021
+ FROM: G value:0.039.
+-/nCurrent Time: Mon Sep 20 16:16:33 2021
+ New token value: 0.058.
+
+-/nCurrent Time: Mon Sep 20 16:16:34 2021
+ FROM: G value:0.495.
+-/nCurrent Time: Mon Sep 20 16:16:34 2021
+ New token value: 0.513.
+
+-/nCurrent Time: Mon Sep 20 16:16:35 2021
+ FROM: G value:0.290.
+-/nCurrent Time: Mon Sep 20 16:16:35 2021
+ New token value: 0.309.
+
+-/nCurrent Time: Mon Sep 20 16:16:36 2021
+ FROM: G value:-0.760.
+-/nCurrent Time: Mon Sep 20 16:16:36 2021
+ New token value: -0.745.
+
+-/nCurrent Time: Mon Sep 20 16:16:37 2021
+ FROM: G value:0.100.
+-/nCurrent Time: Mon Sep 20 16:16:37 2021
+ New token value: 0.120.
+
+-/nCurrent Time: Mon Sep 20 16:16:38 2021
+ FROM: G value:-0.277.
+-/nCurrent Time: Mon Sep 20 16:16:38 2021
+ New token value: -0.259.
+
+-/nCurrent Time: Mon Sep 20 16:16:39 2021
+ FROM: G value:-0.020.
+-/nCurrent Time: Mon Sep 20 16:16:39 2021
+ New token value: -0.002.
+
+-/nCurrent Time: Mon Sep 20 16:16:40 2021
+ FROM: G value:0.026.
+-/nCurrent Time: Mon Sep 20 16:16:40 2021
+ New token value: 0.041.
+
+-/nCurrent Time: Mon Sep 20 16:16:41 2021
+ FROM: G value:0.973.
+-/nCurrent Time: Mon Sep 20 16:16:41 2021
+ New token value: 0.986.
+
+-/nCurrent Time: Mon Sep 20 16:16:42 2021
+ FROM: G value:0.135.
+-/nCurrent Time: Mon Sep 20 16:16:42 2021
+ New token value: 0.153.
+
+-/nCurrent Time: Mon Sep 20 16:16:43 2021
+ FROM: G value:0.857.
+-/nCurrent Time: Mon Sep 20 16:16:43 2021
+ New token value: 0.871.
+
+-/nCurrent Time: Mon Sep 20 16:16:44 2021
+ FROM: G value:0.058.
+-/nCurrent Time: Mon Sep 20 16:16:44 2021
+ New token value: 0.076.
+
+-/nCurrent Time: Mon Sep 20 16:16:45 2021
+ FROM: G value:0.513.
+-/nCurrent Time: Mon Sep 20 16:16:45 2021
+ New token value: 0.531.
+
+-/nCurrent Time: Mon Sep 20 16:16:46 2021
+ FROM: G value:0.309.
+-/nCurrent Time: Mon Sep 20 16:16:46 2021
+ New token value: 0.329.
+
+-/nCurrent Time: Mon Sep 20 16:16:47 2021
+ FROM: G value:-0.745.
+-/nCurrent Time: Mon Sep 20 16:16:47 2021
+ New token value: -0.727.
+
+-/nCurrent Time: Mon Sep 20 16:16:48 2021
+ FROM: G value:0.120.
+-/nCurrent Time: Mon Sep 20 16:16:48 2021
+ New token value: 0.139.
+
+-/nCurrent Time: Mon Sep 20 16:16:49 2021
+ FROM: G value:-0.259.
+-/nCurrent Time: Mon Sep 20 16:16:49 2021
+ New token value: -0.241.
+
+-/nCurrent Time: Mon Sep 20 16:16:50 2021
+ FROM: G value:-0.002.
+-/nCurrent Time: Mon Sep 20 16:16:50 2021
+ New token value: 0.010.
+
+-/nCurrent Time: Mon Sep 20 16:16:51 2021
+ FROM: G value:0.041.
+-/nCurrent Time: Mon Sep 20 16:16:51 2021
+ New token value: 0.055.
+
+-/nCurrent Time: Mon Sep 20 16:16:52 2021
+ FROM: G value:0.986.
+-/nCurrent Time: Mon Sep 20 16:16:52 2021
+ New token value: 0.994.
+
+-/nCurrent Time: Mon Sep 20 16:16:53 2021
+ FROM: G value:0.153.
+-/nCurrent Time: Mon Sep 20 16:16:53 2021
+ New token value: 0.167.
+
+-/nCurrent Time: Mon Sep 20 16:16:54 2021
+ FROM: G value:0.871.
+-/nCurrent Time: Mon Sep 20 16:16:54 2021
+ New token value: 0.885.
+
+-/nCurrent Time: Mon Sep 20 16:16:55 2021
+ FROM: G value:0.076.
+-/nCurrent Time: Mon Sep 20 16:16:55 2021
+ New token value: 0.096.
+
+-/nCurrent Time: Mon Sep 20 16:16:56 2021
+ FROM: G value:0.531.
+-/nCurrent Time: Mon Sep 20 16:16:56 2021
+ New token value: 0.550.
+
+-/nCurrent Time: Mon Sep 20 16:16:57 2021
+ FROM: G value:0.329.
+-/nCurrent Time: Mon Sep 20 16:16:57 2021
+ New token value: 0.344.
+
+-/nCurrent Time: Mon Sep 20 16:16:58 2021
+ FROM: G value:-0.727.
+-/nCurrent Time: Mon Sep 20 16:16:58 2021
+ New token value: -0.710.
+
+-/nCurrent Time: Mon Sep 20 16:16:59 2021
+ FROM: G value:0.139.
+-/nCurrent Time: Mon Sep 20 16:16:59 2021
+ New token value: 0.155.
+
+-/nCurrent Time: Mon Sep 20 16:17:00 2021
+ FROM: G value:-0.241.
+-/nCurrent Time: Mon Sep 20 16:17:00 2021
+ New token value: -0.226.
+
+-/nCurrent Time: Mon Sep 20 16:17:01 2021
+ FROM: G value:0.010.
+-/nCurrent Time: Mon Sep 20 16:17:01 2021
+ New token value: 0.024.
+
+-/nCurrent Time: Mon Sep 20 16:17:02 2021
+ FROM: G value:0.055.
+-/nCurrent Time: Mon Sep 20 16:17:02 2021
+ New token value: 0.068.
+
+-/nCurrent Time: Mon Sep 20 16:17:03 2021
+ FROM: G value:0.994.
+-/nCurrent Time: Mon Sep 20 16:17:03 2021
+ New token value: 1.000.
+
+-/nCurrent Time: Mon Sep 20 16:17:04 2021
+ FROM: G value:0.167.
+-/nCurrent Time: Mon Sep 20 16:17:04 2021
+ New token value: 0.152.
+
+-/nCurrent Time: Mon Sep 20 16:17:05 2021
+ FROM: G value:0.885.
+-/nCurrent Time: Mon Sep 20 16:17:05 2021
+ New token value: 0.874.
+
+-/nCurrent Time: Mon Sep 20 16:17:06 2021
+ FROM: G value:0.096.
+-/nCurrent Time: Mon Sep 20 16:17:06 2021
+ New token value: 0.084.
+
+-/nCurrent Time: Mon Sep 20 16:17:07 2021
+ FROM: G value:0.550.
+-/nCurrent Time: Mon Sep 20 16:17:07 2021
+ New token value: 0.532.
+
+-/nCurrent Time: Mon Sep 20 16:17:08 2021
+ FROM: G value:0.344.
+-/nCurrent Time: Mon Sep 20 16:17:08 2021
+ New token value: 0.327.
+
+-/nCurrent Time: Mon Sep 20 16:17:09 2021
+ FROM: G value:-0.710.
+-/nCurrent Time: Mon Sep 20 16:17:09 2021
+ New token value: -0.723.
+
+-/nCurrent Time: Mon Sep 20 16:17:10 2021
+ FROM: G value:0.155.
+-/nCurrent Time: Mon Sep 20 16:17:10 2021
+ New token value: 0.137.
+
+-/nCurrent Time: Mon Sep 20 16:17:11 2021
+ FROM: G value:-0.226.
+-/nCurrent Time: Mon Sep 20 16:17:11 2021
+ New token value: -0.239.
+
+-/nCurrent Time: Mon Sep 20 16:17:12 2021
+ FROM: G value:0.024.
+-/nCurrent Time: Mon Sep 20 16:17:12 2021
+ New token value: 0.008.
+
+-/nCurrent Time: Mon Sep 20 16:17:13 2021
+ FROM: G value:0.068.
+-/nCurrent Time: Mon Sep 20 16:17:13 2021
+ New token value: 0.049.
+
+-/nCurrent Time: Mon Sep 20 16:17:14 2021
+ FROM: G value:1.000.
+-/nCurrent Time: Mon Sep 20 16:17:14 2021
+ New token value: 0.987.
+
+-/nCurrent Time: Mon Sep 20 16:17:15 2021
+ FROM: G value:0.152.
+-/nCurrent Time: Mon Sep 20 16:17:15 2021
+ New token value: 0.133.
+
+-/nCurrent Time: Mon Sep 20 16:17:16 2021
+ FROM: G value:0.874.
+-/nCurrent Time: Mon Sep 20 16:17:16 2021
+ New token value: 0.859.
+
+-/nCurrent Time: Mon Sep 20 16:17:17 2021
+ FROM: G value:0.084.
+-/nCurrent Time: Mon Sep 20 16:17:17 2021
+ New token value: 0.065.
+
+-/nCurrent Time: Mon Sep 20 16:17:18 2021
+ FROM: G value:0.532.
+-/nCurrent Time: Mon Sep 20 16:17:18 2021
+ New token value: 0.515.
+
+-/nCurrent Time: Mon Sep 20 16:17:19 2021
+ FROM: G value:0.327.
+-/nCurrent Time: Mon Sep 20 16:17:19 2021
+ New token value: 0.309.
+
+-/nCurrent Time: Mon Sep 20 16:17:20 2021
+ FROM: G value:-0.723.
+-/nCurrent Time: Mon Sep 20 16:17:20 2021
+ New token value: -0.740.
+
+-/nCurrent Time: Mon Sep 20 16:17:21 2021
+ FROM: G value:0.137.
+-/nCurrent Time: Mon Sep 20 16:17:21 2021
+ New token value: 0.118.
+
+-/nCurrent Time: Mon Sep 20 16:17:22 2021
+ FROM: G value:-0.239.
+-/nCurrent Time: Mon Sep 20 16:17:22 2021
+ New token value: -0.254.
+
+-/nCurrent Time: Mon Sep 20 16:17:23 2021
+ FROM: G value:0.008.
+-/nCurrent Time: Mon Sep 20 16:17:23 2021
+ New token value: -0.006.
+
+-/nCurrent Time: Mon Sep 20 16:17:24 2021
+ FROM: G value:0.049.
+-/nCurrent Time: Mon Sep 20 16:17:24 2021
+ New token value: 0.035.
+
+-/nCurrent Time: Mon Sep 20 16:17:25 2021
+ FROM: G value:0.987.
+-/nCurrent Time: Mon Sep 20 16:17:25 2021
+ New token value: 0.978.
+
+-/nCurrent Time: Mon Sep 20 16:17:26 2021
+ FROM: G value:0.133.
+-/nCurrent Time: Mon Sep 20 16:17:26 2021
+ New token value: 0.119.
+
+-/nCurrent Time: Mon Sep 20 16:17:27 2021
+ FROM: G value:0.859.
+-/nCurrent Time: Mon Sep 20 16:17:27 2021
+ New token value: 0.849.
+
+-/nCurrent Time: Mon Sep 20 16:17:28 2021
+ FROM: G value:0.065.
+-/nCurrent Time: Mon Sep 20 16:17:28 2021
+ New token value: 0.053.
+
+-/nCurrent Time: Mon Sep 20 16:17:29 2021
+ FROM: G value:0.515.
+-/nCurrent Time: Mon Sep 20 16:17:29 2021
+ New token value: 0.496.
+
+-/nCurrent Time: Mon Sep 20 16:17:30 2021
+ FROM: G value:0.309.
+-/nCurrent Time: Mon Sep 20 16:17:30 2021
+ New token value: 0.298.
+
+-/nCurrent Time: Mon Sep 20 16:17:31 2021
+ FROM: G value:-0.740.
+-/nCurrent Time: Mon Sep 20 16:17:31 2021
+ New token value: -0.750.
+
+-/nCurrent Time: Mon Sep 20 16:17:32 2021
+ FROM: G value:0.118.
+-/nCurrent Time: Mon Sep 20 16:17:32 2021
+ New token value: 0.104.
+
+-/nCurrent Time: Mon Sep 20 16:17:33 2021
+ FROM: G value:-0.254.
+-/nCurrent Time: Mon Sep 20 16:17:33 2021
+ New token value: -0.266.
+
+-/nCurrent Time: Mon Sep 20 16:17:34 2021
+ FROM: G value:-0.006.
+-/nCurrent Time: Mon Sep 20 16:17:34 2021
+ New token value: -0.020.
+
+-/nCurrent Time: Mon Sep 20 16:17:35 2021
+ FROM: G value:0.035.
+-/nCurrent Time: Mon Sep 20 16:17:35 2021
+ New token value: 0.018.
+
+-/nCurrent Time: Mon Sep 20 16:17:36 2021
+ FROM: G value:0.978.
+-/nCurrent Time: Mon Sep 20 16:17:36 2021
+ New token value: 0.968.
+
+-/nCurrent Time: Mon Sep 20 16:17:37 2021
+ FROM: G value:0.119.
+-/nCurrent Time: Mon Sep 20 16:17:37 2021
+ New token value: 0.105.
+
+-/nCurrent Time: Mon Sep 20 16:17:38 2021
+ FROM: G value:0.849.
+-/nCurrent Time: Mon Sep 20 16:17:38 2021
+ New token value: 0.840.
+
+-/nCurrent Time: Mon Sep 20 16:17:39 2021
+ FROM: G value:0.053.
+-/nCurrent Time: Mon Sep 20 16:17:39 2021
+ New token value: 0.040.
+
+-/nCurrent Time: Mon Sep 20 16:17:40 2021
+ FROM: G value:0.496.
+-/nCurrent Time: Mon Sep 20 16:17:40 2021
+ New token value: 0.479.
+
+-/nCurrent Time: Mon Sep 20 16:17:41 2021
+ FROM: G value:0.298.
+-/nCurrent Time: Mon Sep 20 16:17:41 2021
+ New token value: 0.286.
+
+-/nCurrent Time: Mon Sep 20 16:17:42 2021
+ FROM: G value:-0.750.
+-/nCurrent Time: Mon Sep 20 16:17:42 2021
+ New token value: -0.759.
+
+-/nCurrent Time: Mon Sep 20 16:17:43 2021
+ FROM: G value:0.104.
+-/nCurrent Time: Mon Sep 20 16:17:43 2021
+ New token value: 0.093.
+
+-/nCurrent Time: Mon Sep 20 16:17:44 2021
+ FROM: G value:-0.266.
+-/nCurrent Time: Mon Sep 20 16:17:44 2021
+ New token value: -0.277.
+
+-/nCurrent Time: Mon Sep 20 16:17:45 2021
+ FROM: G value:-0.020.
+-/nCurrent Time: Mon Sep 20 16:17:45 2021
+ New token value: -0.032.
+
+-/nCurrent Time: Mon Sep 20 16:17:46 2021
+ FROM: G value:0.018.
+-/nCurrent Time: Mon Sep 20 16:17:46 2021
+ New token value: 0.007.
+
+-/nCurrent Time: Mon Sep 20 16:17:47 2021
+ FROM: G value:0.968.
+-/nCurrent Time: Mon Sep 20 16:17:47 2021
+ New token value: 0.960.
+
+-/nCurrent Time: Mon Sep 20 16:17:48 2021
+ FROM: G value:0.105.
+-/nCurrent Time: Mon Sep 20 16:17:48 2021
+ New token value: 0.094.
+
+-/nCurrent Time: Mon Sep 20 16:17:49 2021
+ FROM: G value:0.840.
+-/nCurrent Time: Mon Sep 20 16:17:49 2021
+ New token value: 0.832.
+
+-/nCurrent Time: Mon Sep 20 16:17:50 2021
+ FROM: G value:0.040.
+-/nCurrent Time: Mon Sep 20 16:17:50 2021
+ New token value: 0.029.
+
+-/nCurrent Time: Mon Sep 20 16:17:51 2021
+ FROM: G value:0.479.
+-/nCurrent Time: Mon Sep 20 16:17:51 2021
+ New token value: 0.470.
+
+-/nCurrent Time: Mon Sep 20 16:17:52 2021
+ FROM: G value:0.286.
+-/nCurrent Time: Mon Sep 20 16:17:52 2021
+ New token value: 0.275.
+
+-/nCurrent Time: Mon Sep 20 16:17:53 2021
+ FROM: G value:-0.759.
+-/nCurrent Time: Mon Sep 20 16:17:53 2021
+ New token value: -0.768.
+
+-/nCurrent Time: Mon Sep 20 16:17:54 2021
+ FROM: G value:0.093.
+-/nCurrent Time: Mon Sep 20 16:17:54 2021
+ New token value: 0.082.
+
+-/nCurrent Time: Mon Sep 20 16:17:55 2021
+ FROM: G value:-0.277.
+-/nCurrent Time: Mon Sep 20 16:17:55 2021
+ New token value: -0.289.
+
+-/nCurrent Time: Mon Sep 20 16:17:56 2021
+ FROM: G value:-0.032.
+-/nCurrent Time: Mon Sep 20 16:17:56 2021
+ New token value: -0.046.
+
+-/nCurrent Time: Mon Sep 20 16:17:57 2021
+ FROM: G value:0.007.
+-/nCurrent Time: Mon Sep 20 16:17:57 2021
+ New token value: -0.005.
+
+-/nCurrent Time: Mon Sep 20 16:17:58 2021
+ FROM: G value:0.960.
+-/nCurrent Time: Mon Sep 20 16:17:58 2021
+ New token value: 0.952.
+
+-/nCurrent Time: Mon Sep 20 16:17:59 2021
+ FROM: G value:0.094.
+-/nCurrent Time: Mon Sep 20 16:17:59 2021
+ New token value: 0.084.
+
+-/nCurrent Time: Mon Sep 20 16:18:00 2021
+ FROM: G value:0.832.
+-/nCurrent Time: Mon Sep 20 16:18:00 2021
+ New token value: 0.823.
+
+-/nCurrent Time: Mon Sep 20 16:18:01 2021
+ FROM: G value:0.029.
+-/nCurrent Time: Mon Sep 20 16:18:01 2021
+ New token value: 0.017.
+
+-/nCurrent Time: Mon Sep 20 16:18:02 2021
+ FROM: G value:0.470.
+-/nCurrent Time: Mon Sep 20 16:18:02 2021
+ New token value: 0.459.
+
+-/nCurrent Time: Mon Sep 20 16:18:03 2021
+ FROM: G value:0.275.
+-/nCurrent Time: Mon Sep 20 16:18:03 2021
+ New token value: 0.264.
+
+-/nCurrent Time: Mon Sep 20 16:18:04 2021
+ FROM: G value:-0.768.
+-/nCurrent Time: Mon Sep 20 16:18:04 2021
+ New token value: -0.777.
+
+-/nCurrent Time: Mon Sep 20 16:18:05 2021
+ FROM: G value:0.082.
+-/nCurrent Time: Mon Sep 20 16:18:05 2021
+ New token value: 0.070.
+
+-/nCurrent Time: Mon Sep 20 16:18:06 2021
+ FROM: G value:-0.289.
+-/nCurrent Time: Mon Sep 20 16:18:06 2021
+ New token value: -0.300.
+
+-/nCurrent Time: Mon Sep 20 16:18:20 2021
+ FROM: G value:-0.046.
+-/nCurrent Time: Mon Sep 20 16:18:20 2021
+ New token value: -0.793.
+
+-/nCurrent Time: Mon Sep 20 16:18:21 2021
+ FROM: G value:-0.005.
+-/nCurrent Time: Mon Sep 20 16:18:21 2021
+ New token value: 0.012.
+
+-/nCurrent Time: Mon Sep 20 16:18:22 2021
+ FROM: G value:0.952.
+-/nCurrent Time: Mon Sep 20 16:18:22 2021
+ New token value: 0.965.
+
+-/nCurrent Time: Mon Sep 20 16:18:23 2021
+ FROM: G value:0.084.
+-/nCurrent Time: Mon Sep 20 16:18:23 2021
+ New token value: 0.101.
+
+-/nCurrent Time: Mon Sep 20 16:18:24 2021
+ FROM: G value:0.823.
+-/nCurrent Time: Mon Sep 20 16:18:24 2021
+ New token value: 0.838.
+
+-/nCurrent Time: Mon Sep 20 16:18:25 2021
+ FROM: G value:0.017.
+-/nCurrent Time: Mon Sep 20 16:18:25 2021
+ New token value: 0.034.
+
+-/nCurrent Time: Mon Sep 20 16:18:26 2021
+ FROM: G value:0.459.
+-/nCurrent Time: Mon Sep 20 16:18:26 2021
+ New token value: 0.478.
+
+
+-Current Time: Mon Sep 20 16:18:27 2021
+ FROM S action: DUMP LOG
+-/nCurrent Time: Mon Sep 20 16:18:27 2021
+ FROM: G value:0.264.
+-/nCurrent Time: Mon Sep 20 16:18:27 2021
+ New token value: 0.282.
+
+-/nCurrent Time: Mon Sep 20 16:18:28 2021
+ FROM: G value:-0.777.
+-/nCurrent Time: Mon Sep 20 16:18:28 2021
+ New token value: -0.761.
+
+-/nCurrent Time: Mon Sep 20 16:18:29 2021
+ FROM: G value:0.070.
+-/nCurrent Time: Mon Sep 20 16:18:29 2021
+ New token value: 0.088.
+
+-/nCurrent Time: Mon Sep 20 16:18:30 2021
+ FROM: G value:-0.300.
+-/nCurrent Time: Mon Sep 20 16:18:30 2021
+ New token value: -0.281.
+
+-/nCurrent Time: Mon Sep 20 16:18:31 2021
+ FROM: G value:0.000.
+-/nCurrent Time: Mon Sep 20 16:18:31 2021
+ New token value: 0.014.
+
+-/nCurrent Time: Mon Sep 20 16:18:32 2021
+ FROM: G value:-0.793.
+-/nCurrent Time: Mon Sep 20 16:18:32 2021
+ New token value: -0.784.
+
+-/nCurrent Time: Mon Sep 20 16:18:33 2021
+ FROM: G value:0.012.
+-/nCurrent Time: Mon Sep 20 16:18:33 2021
+ New token value: 0.026.
+
+-/nCurrent Time: Mon Sep 20 16:18:34 2021
+ FROM: G value:0.965.
+-/nCurrent Time: Mon Sep 20 16:18:34 2021
+ New token value: 0.978.
+
+-/nCurrent Time: Mon Sep 20 16:19:38 2021
+ FROM: G value:0.101.
+-/nCurrent Time: Mon Sep 20 16:19:38 2021
+ New token value: 0.632.
+
+-/nCurrent Time: Mon Sep 20 16:19:39 2021
+ FROM: G value:0.838.
+-/nCurrent Time: Mon Sep 20 16:19:39 2021
+ New token value: 0.855.
+
+-/nCurrent Time: Mon Sep 20 16:19:40 2021
+ FROM: G value:0.034.
+-/nCurrent Time: Mon Sep 20 16:19:40 2021
+ New token value: 0.047.
+
+-/nCurrent Time: Mon Sep 20 16:19:41 2021
+ FROM: G value:0.478.
+-/nCurrent Time: Mon Sep 20 16:19:41 2021
+ New token value: 0.496.
+
+-/nCurrent Time: Mon Sep 20 16:19:42 2021
+ FROM: G value:0.282.
+-/nCurrent Time: Mon Sep 20 16:19:42 2021
+ New token value: 0.300.
+
+-/nCurrent Time: Mon Sep 20 16:19:43 2021
+ FROM: G value:-0.761.
+-/nCurrent Time: Mon Sep 20 16:19:43 2021
+ New token value: -0.746.
+
+-/nCurrent Time: Mon Sep 20 16:19:44 2021
+ FROM: G value:0.088.
+-/nCurrent Time: Mon Sep 20 16:19:44 2021
+ New token value: 0.105.
+
+-/nCurrent Time: Mon Sep 20 16:19:45 2021
+ FROM: G value:-0.281.
+-/nCurrent Time: Mon Sep 20 16:19:45 2021
+ New token value: -0.270.
+
+-/nCurrent Time: Mon Sep 20 16:19:46 2021
+ FROM: G value:0.014.
+-/nCurrent Time: Mon Sep 20 16:19:46 2021
+ New token value: 0.028.
+
+-/nCurrent Time: Mon Sep 20 16:19:47 2021
+ FROM: G value:-0.784.
+-/nCurrent Time: Mon Sep 20 16:19:47 2021
+ New token value: -0.772.
+
+-/nCurrent Time: Mon Sep 20 16:19:48 2021
+ FROM: G value:0.026.
+-/nCurrent Time: Mon Sep 20 16:19:48 2021
+ New token value: 0.038.
+
+-/nCurrent Time: Mon Sep 20 16:19:49 2021
+ FROM: G value:0.978.
+-/nCurrent Time: Mon Sep 20 16:19:49 2021
+ New token value: 0.986.
+
+-/nCurrent Time: Mon Sep 20 16:19:50 2021
+ FROM: G value:0.000.
+-/nCurrent Time: Mon Sep 20 16:19:50 2021
+ New token value: 0.012.
+
+-/nCurrent Time: Mon Sep 20 16:19:51 2021
+ FROM: G value:0.632.
+-/nCurrent Time: Mon Sep 20 16:19:51 2021
+ New token value: 0.647.
+
+-/nCurrent Time: Mon Sep 20 16:19:52 2021
+ FROM: G value:0.855.
+-/nCurrent Time: Mon Sep 20 16:19:52 2021
+ New token value: 0.863.
+
+-/nCurrent Time: Mon Sep 20 16:19:53 2021
+ FROM: G value:0.047.
+-/nCurrent Time: Mon Sep 20 16:19:53 2021
+ New token value: 0.066.
+
+-/nCurrent Time: Mon Sep 20 16:19:54 2021
+ FROM: G value:0.496.
+-/nCurrent Time: Mon Sep 20 16:19:54 2021
+ New token value: 0.511.
+
+-/nCurrent Time: Mon Sep 20 16:19:55 2021
+ FROM: G value:0.300.
+-/nCurrent Time: Mon Sep 20 16:19:55 2021
+ New token value: 0.315.
+
+-/nCurrent Time: Mon Sep 20 16:19:56 2021
+ FROM: G value:-0.746.
+-/nCurrent Time: Mon Sep 20 16:19:56 2021
+ New token value: -0.734.
+
+-/nCurrent Time: Mon Sep 20 16:19:57 2021
+ FROM: G value:0.105.
+-/nCurrent Time: Mon Sep 20 16:19:57 2021
+ New token value: 0.116.
+
+-/nCurrent Time: Mon Sep 20 16:19:58 2021
+ FROM: G value:-0.270.
+-/nCurrent Time: Mon Sep 20 16:19:58 2021
+ New token value: -0.253.
+
+-/nCurrent Time: Mon Sep 20 16:19:59 2021
+ FROM: G value:0.028.
+-/nCurrent Time: Mon Sep 20 16:19:59 2021
+ New token value: 0.042.
+
+-/nCurrent Time: Mon Sep 20 16:20:00 2021
+ FROM: G value:-0.772.
+-/nCurrent Time: Mon Sep 20 16:20:00 2021
+ New token value: -0.757.
+
+-/nCurrent Time: Mon Sep 20 16:20:01 2021
+ FROM: G value:0.038.
+-/nCurrent Time: Mon Sep 20 16:20:01 2021
+ New token value: 0.053.
+
+-/nCurrent Time: Mon Sep 20 16:20:02 2021
+ FROM: G value:0.986.
+-/nCurrent Time: Mon Sep 20 16:20:02 2021
+ New token value: 0.995.
+
+-/nCurrent Time: Mon Sep 20 16:20:03 2021
+ FROM: G value:0.012.
+-/nCurrent Time: Mon Sep 20 16:20:03 2021
+ New token value: 0.028.
+
+-/nCurrent Time: Mon Sep 20 16:20:04 2021
+ FROM: G value:0.647.
+-/nCurrent Time: Mon Sep 20 16:20:04 2021
+ New token value: 0.658.
+
+-/nCurrent Time: Mon Sep 20 16:20:05 2021
+ FROM: G value:0.863.
+-/nCurrent Time: Mon Sep 20 16:20:05 2021
+ New token value: 0.876.
+
+-/nCurrent Time: Mon Sep 20 16:20:06 2021
+ FROM: G value:0.066.
+-/nCurrent Time: Mon Sep 20 16:20:06 2021
+ New token value: 0.085.
+
+-/nCurrent Time: Mon Sep 20 16:20:07 2021
+ FROM: G value:0.511.
+-/nCurrent Time: Mon Sep 20 16:20:07 2021
+ New token value: 0.528.
+
+-/nCurrent Time: Mon Sep 20 16:20:08 2021
+ FROM: G value:0.315.
+-/nCurrent Time: Mon Sep 20 16:20:08 2021
+ New token value: 0.331.
+
+-/nCurrent Time: Mon Sep 20 16:20:09 2021
+ FROM: G value:-0.734.
+-/nCurrent Time: Mon Sep 20 16:20:09 2021
+ New token value: -0.717.
+
+-/nCurrent Time: Mon Sep 20 16:20:10 2021
+ FROM: G value:0.116.
+-/nCurrent Time: Mon Sep 20 16:20:10 2021
+ New token value: 0.130.
+
+-/nCurrent Time: Mon Sep 20 16:20:11 2021
+ FROM: G value:-0.253.
+-/nCurrent Time: Mon Sep 20 16:20:11 2021
+ New token value: -0.240.
+
+-/nCurrent Time: Mon Sep 20 16:20:12 2021
+ FROM: G value:0.042.
+-/nCurrent Time: Mon Sep 20 16:20:12 2021
+ New token value: 0.055.
+
+-/nCurrent Time: Mon Sep 20 16:20:13 2021
+ FROM: G value:-0.757.
+-/nCurrent Time: Mon Sep 20 16:20:13 2021
+ New token value: -0.744.
+
+-/nCurrent Time: Mon Sep 20 16:20:14 2021
+ FROM: G value:0.053.
+-/nCurrent Time: Mon Sep 20 16:20:14 2021
+ New token value: 0.069.
+
+-/nCurrent Time: Mon Sep 20 16:20:15 2021
+ FROM: G value:0.995.
+-/nCurrent Time: Mon Sep 20 16:20:15 2021
+ New token value: 1.000.
+
+-/nCurrent Time: Mon Sep 20 16:20:16 2021
+ FROM: G value:0.028.
+-/nCurrent Time: Mon Sep 20 16:20:16 2021
+ New token value: 0.008.
+
+-/nCurrent Time: Mon Sep 20 16:20:17 2021
+ FROM: G value:0.658.
+-/nCurrent Time: Mon Sep 20 16:20:17 2021
+ New token value: 0.642.
+
+-/nCurrent Time: Mon Sep 20 16:20:18 2021
+ FROM: G value:0.876.
+-/nCurrent Time: Mon Sep 20 16:20:18 2021
+ New token value: 0.863.
+
+-/nCurrent Time: Mon Sep 20 16:20:19 2021
+ FROM: G value:0.085.
+-/nCurrent Time: Mon Sep 20 16:20:19 2021
+ New token value: 0.069.
+
+-/nCurrent Time: Mon Sep 20 16:20:32 2021
+ FROM: G value:0.528.
+-/nCurrent Time: Mon Sep 20 16:20:32 2021
+ New token value: 0.913.
+
+-/nCurrent Time: Mon Sep 20 16:20:33 2021
+ FROM: G value:0.331.
+-/nCurrent Time: Mon Sep 20 16:20:33 2021
+ New token value: 0.343.
+
+-/nCurrent Time: Mon Sep 20 16:20:34 2021
+ FROM: G value:-0.717.
+-/nCurrent Time: Mon Sep 20 16:20:34 2021
+ New token value: -0.706.
+
+-/nCurrent Time: Mon Sep 20 16:20:35 2021
+ FROM: G value:0.130.
+-/nCurrent Time: Mon Sep 20 16:20:35 2021
+ New token value: 0.145.
+
+-/nCurrent Time: Mon Sep 20 16:20:36 2021
+ FROM: G value:-0.240.
+-/nCurrent Time: Mon Sep 20 16:20:36 2021
+ New token value: -0.228.
+
+-/nCurrent Time: Mon Sep 20 16:20:37 2021
+ FROM: G value:0.055.
+-/nCurrent Time: Mon Sep 20 16:20:37 2021
+ New token value: 0.072.
+
+-/nCurrent Time: Mon Sep 20 16:20:38 2021
+ FROM: G value:-0.744.
+-/nCurrent Time: Mon Sep 20 16:20:38 2021
+ New token value: -0.736.
+
+-/nCurrent Time: Mon Sep 20 16:20:39 2021
+ FROM: G value:0.069.
+-/nCurrent Time: Mon Sep 20 16:20:39 2021
+ New token value: 0.082.
+
+-/nCurrent Time: Mon Sep 20 16:20:40 2021
+ FROM: G value:1.000.
+-/nCurrent Time: Mon Sep 20 16:20:40 2021
+ New token value: 1.000.
+
+-/nCurrent Time: Mon Sep 20 16:20:41 2021
+ FROM: G value:0.008.
+-/nCurrent Time: Mon Sep 20 16:20:41 2021
+ New token value: -0.003.
+
+-/nCurrent Time: Mon Sep 20 16:21:22 2021
+ FROM: G value:0.000.
+-/nCurrent Time: Mon Sep 20 16:21:22 2021
+ New token value: 0.102.
+
+-/nCurrent Time: Mon Sep 20 16:21:23 2021
+ FROM: G value:0.102.
+-/nCurrent Time: Mon Sep 20 16:21:23 2021
+ New token value: 0.127.
+
+-/nCurrent Time: Mon Sep 20 16:21:24 2021
+ FROM: G value:0.127.
+-/nCurrent Time: Mon Sep 20 16:21:24 2021
+ New token value: 0.163.
+
+-/nCurrent Time: Mon Sep 20 16:21:25 2021
+ FROM: G value:0.163.
+-/nCurrent Time: Mon Sep 20 16:21:25 2021
+ New token value: 0.195.
+
+-/nCurrent Time: Mon Sep 20 16:21:26 2021
+ FROM: G value:0.195.
+-/nCurrent Time: Mon Sep 20 16:21:26 2021
+ New token value: 0.210.
+
+-/nCurrent Time: Mon Sep 20 16:21:27 2021
+ FROM: G value:0.210.
+-/nCurrent Time: Mon Sep 20 16:21:27 2021
  New token value: 0.224.
 
--Current Time: Mon Sep 20 09:43:28 2021
- FROM: G value:-0.449.
--Current Time: Mon Sep 20 09:43:28 2021
- New token value: -0.431.
+-/nCurrent Time: Mon Sep 20 16:21:28 2021
+ FROM: G value:0.224.
+-/nCurrent Time: Mon Sep 20 16:21:28 2021
+ New token value: 0.242.
+
+
+-Current Time: Mon Sep 20 16:21:29 2021
+ FROM S action: DUMP LOG
+-/nCurrent Time: Mon Sep 20 16:21:29 2021
+ FROM: G value:0.242.
+-/nCurrent Time: Mon Sep 20 16:21:29 2021
+ New token value: 0.259.
+
+-/nCurrent Time: Mon Sep 20 16:21:30 2021
+ FROM: G value:0.259.
+-/nCurrent Time: Mon Sep 20 16:21:30 2021
+ New token value: 0.272.
+
+-/nCurrent Time: Mon Sep 20 16:21:31 2021
+ FROM: G value:0.272.
+-/nCurrent Time: Mon Sep 20 16:21:31 2021
+ New token value: 0.288.
+
+-/nCurrent Time: Mon Sep 20 16:21:32 2021
+ FROM: G value:0.288.
+-/nCurrent Time: Mon Sep 20 16:21:32 2021
+ New token value: 0.307.
+
+-/nCurrent Time: Mon Sep 20 16:21:33 2021
+ FROM: G value:0.307.
+-/nCurrent Time: Mon Sep 20 16:21:33 2021
+ New token value: 0.318.
+
+-/nCurrent Time: Mon Sep 20 16:21:34 2021
+ FROM: G value:0.318.
+-/nCurrent Time: Mon Sep 20 16:21:34 2021
+ New token value: 0.329.
+
+-/nCurrent Time: Mon Sep 20 16:21:35 2021
+ FROM: G value:0.329.
+-/nCurrent Time: Mon Sep 20 16:21:35 2021
+ New token value: 0.341.
+
+-/nCurrent Time: Mon Sep 20 16:21:36 2021
+ FROM: G value:0.341.
+-/nCurrent Time: Mon Sep 20 16:21:36 2021
+ New token value: 0.351.
+
+-/nCurrent Time: Mon Sep 20 16:52:26 2021
+ FROM: G value:0.000.
+-/nCurrent Time: Mon Sep 20 16:52:26 2021
+ New token value: -0.019.
+
+-/nCurrent Time: Mon Sep 20 16:52:27 2021
+ FROM: G value:-0.019.
+-/nCurrent Time: Mon Sep 20 16:52:27 2021
+ New token value: -0.007.
+
+-/nCurrent Time: Mon Sep 20 16:52:28 2021
+ FROM: G value:-0.007.
+-/nCurrent Time: Mon Sep 20 16:52:28 2021
+ New token value: 0.016.
+
+-/nCurrent Time: Mon Sep 20 16:52:29 2021
+ FROM: G value:0.016.
+-/nCurrent Time: Mon Sep 20 16:52:29 2021
+ New token value: 0.041.
+
+-/nCurrent Time: Mon Sep 20 16:52:30 2021
+ FROM: G value:0.041.
+-/nCurrent Time: Mon Sep 20 16:52:30 2021
+ New token value: 0.075.
+
+-/nCurrent Time: Mon Sep 20 16:52:31 2021
+ FROM: G value:0.075.
+-/nCurrent Time: Mon Sep 20 16:52:31 2021
+ New token value: 0.092.
+
+-/nCurrent Time: Mon Sep 20 16:52:32 2021
+ FROM: G value:0.092.
+-/nCurrent Time: Mon Sep 20 16:52:32 2021
+ New token value: 0.109.
+
+-/nCurrent Time: Mon Sep 20 16:52:33 2021
+ FROM: G value:0.109.
+-/nCurrent Time: Mon Sep 20 16:52:33 2021
+ New token value: 0.127.
+
+-/nCurrent Time: Mon Sep 20 16:52:34 2021
+ FROM: G value:0.127.
+-/nCurrent Time: Mon Sep 20 16:52:34 2021
+ New token value: 0.145.
+
+-/nCurrent Time: Mon Sep 20 16:52:35 2021
+ FROM: G value:0.145.
+-/nCurrent Time: Mon Sep 20 16:52:35 2021
+ New token value: 0.163.
+
+-/nCurrent Time: Mon Sep 20 16:52:36 2021
+ FROM: G value:0.163.
+-/nCurrent Time: Mon Sep 20 16:52:36 2021
+ New token value: 0.181.
+
+-/nCurrent Time: Mon Sep 20 16:52:37 2021
+ FROM: G value:0.181.
+-/nCurrent Time: Mon Sep 20 16:52:37 2021
+ New token value: 0.200.
+
+-/nCurrent Time: Mon Sep 20 16:52:38 2021
+ FROM: G value:0.200.
+-/nCurrent Time: Mon Sep 20 16:52:38 2021
+ New token value: 0.211.
+
+
+-Current Time: Mon Sep 20 16:52:43 2021
+ FROM S action: STOP
+
+-Current Time: Mon Sep 20 16:52:43 2021
+ FROM S action: START
+-/nCurrent Time: Mon Sep 20 16:52:43 2021
+ FROM: G value:0.211.
+-/nCurrent Time: Mon Sep 20 16:52:43 2021
+ New token value: 0.030.
+
+-/nCurrent Time: Mon Sep 20 16:52:44 2021
+ FROM: G value:0.030.
+-/nCurrent Time: Mon Sep 20 16:52:44 2021
+ New token value: 0.043.
+
+-/nCurrent Time: Mon Sep 20 16:52:45 2021
+ FROM: G value:0.043.
+-/nCurrent Time: Mon Sep 20 16:52:45 2021
+ New token value: 0.055.
+
+-/nCurrent Time: Mon Sep 20 16:52:46 2021
+ FROM: G value:0.055.
+-/nCurrent Time: Mon Sep 20 16:52:46 2021
+ New token value: 0.071.
+
+-/nCurrent Time: Mon Sep 20 16:52:47 2021
+ FROM: G value:0.071.
+-/nCurrent Time: Mon Sep 20 16:52:47 2021
+ New token value: 0.083.
+
+
+-Current Time: Mon Sep 20 16:52:48 2021
+ FROM S action: DUMP LOG
+-/nCurrent Time: Mon Sep 20 16:52:48 2021
+ FROM: G value:0.083.
+-/nCurrent Time: Mon Sep 20 16:52:48 2021
+ New token value: 0.099.
+
+-/nCurrent Time: Mon Sep 20 16:52:49 2021
+ FROM: G value:0.099.
+-/nCurrent Time: Mon Sep 20 16:52:49 2021
+ New token value: 0.114.
+
+-/nCurrent Time: Mon Sep 20 16:52:50 2021
+ FROM: G value:0.114.
+-/nCurrent Time: Mon Sep 20 16:52:50 2021
+ New token value: 0.133.
+
+-/nCurrent Time: Mon Sep 20 16:52:51 2021
+ FROM: G value:0.133.
+-/nCurrent Time: Mon Sep 20 16:52:51 2021
+ New token value: 0.144.
+
+-/nCurrent Time: Mon Sep 20 16:52:52 2021
+ FROM: G value:0.144.
+-/nCurrent Time: Mon Sep 20 16:52:52 2021
+ New token value: 0.155.
+
+-/nCurrent Time: Mon Sep 20 16:52:53 2021
+ FROM: G value:0.155.
+-/nCurrent Time: Mon Sep 20 16:52:53 2021
+ New token value: 0.173.
+
+-/nCurrent Time: Mon Sep 20 16:52:54 2021
+ FROM: G value:0.173.
+-/nCurrent Time: Mon Sep 20 16:52:54 2021
+ New token value: 0.192.
+
+-/nCurrent Time: Mon Sep 20 16:52:55 2021
+ FROM: G value:0.192.
+-/nCurrent Time: Mon Sep 20 16:52:55 2021
+ New token value: 0.208.
+
+-/nCurrent Time: Mon Sep 20 16:52:56 2021
+ FROM: G value:0.208.
+-/nCurrent Time: Mon Sep 20 16:52:56 2021
+ New token value: 0.219.
 

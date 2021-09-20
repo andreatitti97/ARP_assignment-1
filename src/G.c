@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 
      bzero((char *)&serv_addr, sizeof(serv_addr));
      portno = atoi(argv[1]); // port number in the first position of argv
-     char *myfifo2 = argv[2];
+     char *fifo2 = argv[2];
 
      serv_addr.sin_family = AF_INET;
      serv_addr.sin_addr.s_addr = INADDR_ANY;
@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
           error("ERROR on accept");
      bzero(&buffer, sizeof(buffer));
 
-     int fd2 = open(myfifo2, O_RDWR); // apro la fifo
+     int fd2 = open(fifo2, O_RDWR); // apro la fifo
      while (1)
      {
 
@@ -80,7 +80,7 @@ int main(int argc, char *argv[])
      }
 
      close(fd2);
-     unlink(myfifo2);
+     unlink(fifo2);
 
      close(newsockfd);
      close(sockfd);
