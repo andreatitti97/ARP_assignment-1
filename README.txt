@@ -1,4 +1,4 @@
-# Project Organization
+# __Project Organization__
 For using the project simply clone the git repo at https://github.com/andreatitti97/ARP_assignment-1
 Move to section "Launch the project" for check how run the assigment.
 In the repository we can find:
@@ -7,27 +7,27 @@ In the repository we can find:
 - The /executables folder in which we have the already compiled project
 - The /results folder in which we can see the Log File and the signal file in which the wave in saved according to his frequency
 
-# Configuration File:
+# __Configuration File__
 
 - Next student IP(localhost in V2.0)
 - Socket port for communication 
 - Waiting time (microseconds)
 - RF value 
 
-# Compilte the project:
+# __Compilte the project__
 
 ---
 g++ src/Final.c -o executables/Final
 ---
 g++ src/G.c -o executables/G
 
-# Launch the project:
+# __Launch the project__
 
 in the root of the workspace
 ---
 ./executables/Final
 ---
-# Interact with the processes execution:
+# __Interact with the processes execution__
 
 For stop the execution of the process
 ```
@@ -43,6 +43,6 @@ kill SIGCONT <S_pid>
 ```
 NB: <S_pid> can be seen in the shell after launched the program.
 
-# Results:
+# __Results__
 
 The results can be seen in the /results folder 
