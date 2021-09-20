@@ -17,6 +17,7 @@
 #include <fcntl.h>
 #include <string.h>
 
+/* THIS CODE SIMULATE THE OTHER MACHINES FOR ASSIGNMENT V2.0 (Covid-19) */
 typedef struct{
 	timespec time;
 	double token;
@@ -30,7 +31,7 @@ void error(const char *msg)
 
 int main(int argc, char *argv[])
 {
-     printf("G process:\n");
+     printf("from G process:\n");
 
      int sockfd, newsockfd, portno;
      socklen_t clilen;
